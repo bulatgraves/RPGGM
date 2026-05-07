@@ -1,0 +1,6 @@
+module RPGGM
+typeinfo appRPGGM.qmltypes
+prefer :/qt/qml/RPGGM/
+Main 254.0 Main.qml
+depends QtQuick
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/RPGGM/">
+    <file alias="Main.qml">C:/Users/kotri/Desktop/Qt Projects/RPGGM/Main.qml</file>
+  </qresource>
+</RCC>
+
