@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/scene_button.png</file>
+        <file>Icons/script_button.png</file>
+    </qresource>
+</RCC>

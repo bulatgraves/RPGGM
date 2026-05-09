@@ -16,6 +16,9 @@ qt_add_qml_module(appRPGGM
     URI RPGGM
     QML_FILES
         Main.qml
+    RESOURCES
+        icons/scene_button.png
+        icons/script_button.png
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

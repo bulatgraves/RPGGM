@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\build\Desktop_Q
 #############################################
 # Order-only phony target for appRPGGM
 
-build cmake_object_order_depends_target_appRPGGM: phony || .qt\rcc\qrc_appRPGGM_raw_qml_0.cpp .qt\rcc\qrc_qmake_RPGGM.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp.aotstats .rcc\qmlcache\appRPGGM_qmlcache_loader.cpp RPGGM\appRPGGM.qmltypes appRPGGM_autogen appRPGGM_autogen\mocs_compilation.cpp appRPGGM_autogen\timestamp appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan apprpggm_qmltyperegistrations.cpp generate_qmlls_build_ini_file meta_types\appRPGGM_json_file_list.txt meta_types\appRPGGM_json_file_list.txt.timestamp meta_types\qt6apprpggm_metatypes.json meta_types\qt6apprpggm_metatypes.json.gen
+build cmake_object_order_depends_target_appRPGGM: phony || .qt\rcc\qrc_appRPGGM_raw_qml_0.cpp .qt\rcc\qrc_appRPGGM_raw_res_0.cpp .qt\rcc\qrc_qmake_RPGGM.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp.aotstats .rcc\qmlcache\appRPGGM_qmlcache_loader.cpp RPGGM\appRPGGM.qmltypes appRPGGM_autogen appRPGGM_autogen\mocs_compilation.cpp appRPGGM_autogen\timestamp appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan apprpggm_qmltyperegistrations.cpp generate_qmlls_build_ini_file meta_types\appRPGGM_json_file_list.txt meta_types\appRPGGM_json_file_list.txt.timestamp meta_types\qt6apprpggm_metatypes.json meta_types\qt6apprpggm_metatypes.json.gen
 
 build CMakeFiles\appRPGGM.dir\appRPGGM_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__appRPGGM_unscanned_Debug C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\appRPGGM_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_appRPGGM
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -112,6 +112,15 @@ build CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\r
   TARGET_COMPILE_PDB = CMakeFiles\appRPGGM.dir\
   TARGET_PDB = appRPGGM.pdb
 
+build CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_appRPGGM_raw_res_0.cpp.obj: CXX_COMPILER__appRPGGM_unscanned_Debug C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_appRPGGM_raw_res_0.cpp || cmake_object_order_depends_target_appRPGGM
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -I"C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\appRPGGM_autogen\include" -I"C:\Users\kotri\Desktop\Qt Projects\RPGGM" -external:IC:\Qt\6.10.2\msvc2022_64\include\QtQml -external:IC:\Qt\6.10.2\msvc2022_64\include -external:IC:\Qt\6.10.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.10.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.10.2\msvc2022_64\include\QtQmlIntegration -external:IC:\Qt\6.10.2\msvc2022_64\include\QtNetwork -external:IC:\Qt\6.10.2\msvc2022_64\include\QtQuick -external:IC:\Qt\6.10.2\msvc2022_64\include\QtGui -external:IC:\Qt\6.10.2\msvc2022_64\include\QtOpenGL -external:W0
+  OBJECT_DIR = CMakeFiles\appRPGGM.dir
+  OBJECT_FILE_DIR = CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc
+  TARGET_COMPILE_PDB = CMakeFiles\appRPGGM.dir\
+  TARGET_PDB = appRPGGM.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target appRPGGM
@@ -120,7 +129,7 @@ build CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\r
 #############################################
 # Link the executable appRPGGM.exe
 
-build appRPGGM.exe: CXX_EXECUTABLE_LINKER__appRPGGM_Debug CMakeFiles\appRPGGM.dir\appRPGGM_autogen\mocs_compilation.cpp.obj CMakeFiles\appRPGGM.dir\main.cpp.obj CMakeFiles\appRPGGM.dir\apprpggm_qmltyperegistrations.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_qmake_RPGGM.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.rcc\qmlcache\appRPGGM_qmlcache_loader.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.rcc\qmlcache\appRPGGM_Main_qml.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_appRPGGM_raw_qml_0.cpp.obj | C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Quickd.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6OpenGLd.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Qmld.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Networkd.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6EntryPointd.lib || appRPGGM_autogen appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan generate_qmlls_build_ini_file
+build appRPGGM.exe: CXX_EXECUTABLE_LINKER__appRPGGM_Debug CMakeFiles\appRPGGM.dir\appRPGGM_autogen\mocs_compilation.cpp.obj CMakeFiles\appRPGGM.dir\main.cpp.obj CMakeFiles\appRPGGM.dir\apprpggm_qmltyperegistrations.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_qmake_RPGGM.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.rcc\qmlcache\appRPGGM_qmlcache_loader.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.rcc\qmlcache\appRPGGM_Main_qml.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_appRPGGM_raw_qml_0.cpp.obj CMakeFiles\appRPGGM.dir\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\rcc\qrc_appRPGGM_raw_res_0.cpp.obj | C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Quickd.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6OpenGLd.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Qmld.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Networkd.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\6.10.2\msvc2022_64\lib\Qt6EntryPointd.lib || appRPGGM_autogen appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan generate_qmlls_build_ini_file
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = C:\Qt\6.10.2\msvc2022_64\lib\Qt6Quickd.lib  C:\Qt\6.10.2\msvc2022_64\lib\Qt6OpenGLd.lib  C:\Qt\6.10.2\msvc2022_64\lib\Qt6Guid.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  user32.lib  C:\Qt\6.10.2\msvc2022_64\lib\Qt6Qmld.lib  C:\Qt\6.10.2\msvc2022_64\lib\Qt6Networkd.lib  C:\Qt\6.10.2\msvc2022_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  C:\Qt\6.10.2\msvc2022_64\lib\Qt6EntryPointd.lib  ws2_32.lib  shell32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -313,7 +322,7 @@ build .qt\rcc\qrc_qmake_RPGGM.cpp | ${cmake_ninja_workdir}.qt\rcc\qrc_qmake_RPGG
 #############################################
 # Custom command for .rcc\qmlcache\appRPGGM_qmlcache_loader.cpp
 
-build .rcc\qmlcache\appRPGGM_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc\qmlcache\appRPGGM_qmlcache_loader.cpp: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\bin\qmlcachegen.exe .rcc\qmlcache\appRPGGM_qml_loader_file_list.rsp .qt\rcc\qmake_RPGGM.qrc .qt\rcc\appRPGGM_raw_qml_0.qrc || appRPGGM_autogen appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan generate_qmlls_build_ini_file
+build .rcc\qmlcache\appRPGGM_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc\qmlcache\appRPGGM_qmlcache_loader.cpp: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\bin\qmlcachegen.exe .rcc\qmlcache\appRPGGM_qml_loader_file_list.rsp .qt\rcc\qmake_RPGGM.qrc .qt\rcc\appRPGGM_raw_qml_0.qrc .qt\rcc\appRPGGM_raw_res_0.qrc || appRPGGM_autogen appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan generate_qmlls_build_ini_file
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" && "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\bin\qt_setup_tool_path.bat" C:/Qt/6.10.2/msvc2022_64/bin/qmlcachegen.exe --resource-name qmlcache_appRPGGM -o "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.rcc/qmlcache/appRPGGM_qmlcache_loader.cpp" "@C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.rcc/qmlcache/appRPGGM_qml_loader_file_list.rsp""
   DESC = Generating .rcc/qmlcache/appRPGGM_qmlcache_loader.cpp
   restat = 1
@@ -322,8 +331,8 @@ build .rcc\qmlcache\appRPGGM_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc\qm
 #############################################
 # Custom command for .rcc\qmlcache\appRPGGM_Main_qml.cpp
 
-build .rcc\qmlcache\appRPGGM_Main_qml.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc\qmlcache\appRPGGM_Main_qml.cpp ${cmake_ninja_workdir}.rcc\qmlcache\appRPGGM_Main_qml.cpp.aotstats: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\bin\qmlcachegen.exe C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\Main.qml .qt\rcc\qmake_RPGGM.qrc .qt\rcc\appRPGGM_raw_qml_0.qrc RPGGM\appRPGGM.qmltypes RPGGM\qmldir
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.rcc/qmlcache" && "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\bin\qt_setup_tool_path.bat" C:/Qt/6.10.2/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/RPGGM/Main.qml -I "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" -I C:/Qt/6.10.2/msvc2022_64/qml -i "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/RPGGM/qmldir" --resource "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/qmake_RPGGM.qrc" --resource "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/appRPGGM_raw_qml_0.qrc" --dump-aot-stats --module-id=RPGGM(appRPGGM) -o "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.rcc/qmlcache/appRPGGM_Main_qml.cpp" "C:/Users/kotri/Desktop/Qt Projects/RPGGM/Main.qml""
+build .rcc\qmlcache\appRPGGM_Main_qml.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc\qmlcache\appRPGGM_Main_qml.cpp ${cmake_ninja_workdir}.rcc\qmlcache\appRPGGM_Main_qml.cpp.aotstats: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\bin\qmlcachegen.exe C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\Main.qml .qt\rcc\qmake_RPGGM.qrc .qt\rcc\appRPGGM_raw_qml_0.qrc .qt\rcc\appRPGGM_raw_res_0.qrc RPGGM\appRPGGM.qmltypes RPGGM\qmldir
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.rcc/qmlcache" && "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\bin\qt_setup_tool_path.bat" C:/Qt/6.10.2/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/RPGGM/Main.qml -I "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" -I C:/Qt/6.10.2/msvc2022_64/qml -i "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/RPGGM/qmldir" --resource "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/qmake_RPGGM.qrc" --resource "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/appRPGGM_raw_qml_0.qrc" --resource "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/appRPGGM_raw_res_0.qrc" --dump-aot-stats --module-id=RPGGM(appRPGGM) -o "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.rcc/qmlcache/appRPGGM_Main_qml.cpp" "C:/Users/kotri/Desktop/Qt Projects/RPGGM/Main.qml""
   DESC = Generating .rcc/qmlcache/appRPGGM_Main_qml.cpp, .rcc/qmlcache/appRPGGM_Main_qml.cpp.aotstats
   restat = 1
 
@@ -334,6 +343,15 @@ build .rcc\qmlcache\appRPGGM_Main_qml.cpp .rcc\qmlcache\appRPGGM_Main_qml.cpp.ao
 build .qt\rcc\qrc_appRPGGM_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt\rcc\qrc_appRPGGM_raw_qml_0.cpp: CUSTOM_COMMAND C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\Main.qml .qt\rcc\appRPGGM_raw_qml_0.qrc C$:\Qt\6.10.2\msvc2022_64\bin\rcc.exe || appRPGGM_autogen appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan generate_qmlls_build_ini_file
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" && C:\Qt\6.10.2\msvc2022_64\bin\rcc.exe --output "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/qrc_appRPGGM_raw_qml_0.cpp" --name appRPGGM_raw_qml_0 "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/appRPGGM_raw_qml_0.qrc" --no-zstd"
   DESC = Running rcc for resource appRPGGM_raw_qml_0
+  restat = 1
+
+
+#############################################
+# Custom command for .qt\rcc\qrc_appRPGGM_raw_res_0.cpp
+
+build .qt\rcc\qrc_appRPGGM_raw_res_0.cpp | ${cmake_ninja_workdir}.qt\rcc\qrc_appRPGGM_raw_res_0.cpp: CUSTOM_COMMAND C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\icons\scene_button.png C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\icons\script_button.png .qt\rcc\appRPGGM_raw_res_0.qrc C$:\Qt\6.10.2\msvc2022_64\bin\rcc.exe || appRPGGM_autogen appRPGGM_autogen_timestamp_deps appRPGGM_copy_qml appRPGGM_copy_res appRPGGM_qmlimportscan generate_qmlls_build_ini_file
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" && C:\Qt\6.10.2\msvc2022_64\bin\rcc.exe --output "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/qrc_appRPGGM_raw_res_0.cpp" --name appRPGGM_raw_res_0 "C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/appRPGGM_raw_res_0.qrc" --no-zstd"
+  DESC = Running rcc for resource appRPGGM_raw_res_0
   restat = 1
 
 
@@ -408,7 +426,7 @@ build CMakeFiles\appRPGGM_copy_res | ${cmake_ninja_workdir}CMakeFiles\appRPGGM_c
 #############################################
 # Custom command for .qt\appRPGGM_res.txt
 
-build .qt\appRPGGM_res.txt | ${cmake_ninja_workdir}.qt\appRPGGM_res.txt: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Qml\Qt6QmlCopyFiles.cmake
+build .qt\appRPGGM_res.txt | ${cmake_ninja_workdir}.qt\appRPGGM_res.txt: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Qml\Qt6QmlCopyFiles.cmake C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\icons\scene_button.png C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\icons\script_button.png
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug" && C:\Qt\Tools\CMake_64\bin\cmake.exe "-DFILES_INFO_PATH=C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/appRPGGM_res.cmake" -P C:/Qt/6.10.2/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake"
   DESC = Copying appRPGGM qml resources into build dir
   restat = 1
@@ -469,7 +487,7 @@ build CMakeFiles\appRPGGM_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles\appRP
 #############################################
 # Custom command for .qt\qml_imports\appRPGGM_build.cmake
 
-build .qt\qml_imports\appRPGGM_build.cmake | ${cmake_ninja_workdir}.qt\qml_imports\appRPGGM_build.cmake: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\bin\qmlimportscanner.exe .qt\rcc\qmake_RPGGM.qrc .qt\rcc\appRPGGM_raw_qml_0.qrc C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\Main.qml
+build .qt\qml_imports\appRPGGM_build.cmake | ${cmake_ninja_workdir}.qt\qml_imports\appRPGGM_build.cmake: CUSTOM_COMMAND C$:\Qt\6.10.2\msvc2022_64\bin\qmlimportscanner.exe .qt\rcc\qmake_RPGGM.qrc .qt\rcc\appRPGGM_raw_qml_0.qrc .qt\rcc\appRPGGM_raw_res_0.qrc C$:\Users\kotri\Desktop\Qt$ Projects\RPGGM\Main.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\kotri\Desktop\Qt Projects\RPGGM" && "C:\Users\kotri\Desktop\Qt Projects\RPGGM\build\Desktop_Qt_6_10_2_MSVC2022_64bit-Debug\.qt\bin\qt_setup_tool_path.bat" C:/Qt/6.10.2/msvc2022_64/bin/qmlimportscanner.exe "@C:/Users/kotri/Desktop/Qt Projects/RPGGM/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/qml_imports/appRPGGM_build.rsp""
   DESC = Running qmlimportscanner for appRPGGM
   restat = 1
